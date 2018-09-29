@@ -106,6 +106,13 @@ Here is the simulator final state after running the EKL with dataset 2:
 
 ![Simulator with dataset 1](img/simulator_results_dataset2.JPG)
 
+## Accuracy
 
+### px, py, vx, vy output coordinates must have an RMSE <= [.11, .11, 0.52, 0.52] when using the file: "obj_pose-laser-radar-synthetic-input.txt which is the same data file the simulator uses for Dataset 1"
+
+The EKF accuracy was:
+
+- Dataset 1 : RMSE <= [0.0973, 0.0855, 0.4513, 0.4399]
+- Dataset 2 : RMSE <= [0.0726, 0.0965, 0.4216, 0.4932]
 
 
